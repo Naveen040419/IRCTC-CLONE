@@ -1,0 +1,36 @@
+.navBar{
+    display : flex;
+    justify-content: space-between;
+
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+
+.navItems{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.authBtn{
+    display: flex;
+    align-items: center;
+}
+
+.loginBtn{
+    background-color: #213d77;
+    padding : 10px 12px;
+    border : none;
+    color : white;
+    font-weight: 700;
+}
+
+.registerBtn{
+    border : none;
+    background-color: transparent;
+    font-weight: 500;
+}

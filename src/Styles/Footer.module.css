@@ -1,0 +1,44 @@
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+    background: linear-gradient(45deg, #9C27B0, #673ab7);
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    color : white;
+    text-align: center;
+}
+
+.socialMediaIcons{
+    display: flex;
+    gap : 15px;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.links{
+   background: #213d77;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px,200px));
+   gap : 15px;
+   padding : 10px;
+   color : white;
+   justify-content: center;
+   padding : 20px 50px;
+}
+
+.links div a{
+    color : white;  
+    text-decoration: none;
+}
+
+.links div{
+    cursor: pointer;
+}
+
+.links div:hover{
+    border-bottom: 2px solid white;
+}
